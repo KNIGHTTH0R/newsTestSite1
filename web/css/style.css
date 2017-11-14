@@ -1,0 +1,31 @@
+body
+{
+    background: green;
+}
+
+#slider {
+    width:512px;
+    height: 512px;
+    border: 5px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+#polosa{
+    background: yellow;
+    width: 5120px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+#polosa::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#polosa  img{
+    float: left;
+}
+hr {
+    width:100%;
+
+}
